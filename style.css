@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: yellow;
+    font-family: "Orbitron", sans-serif;    
+}
+
+h1 {
+    font-size: 4em;
+    padding: 0.1em;
+    margin: 0.1em;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 0.95em;
+    margin-top: 2em;
+}
+
+p {
+    font-size: 0.7em;
+}
+
+.search-character {
+    margin: 1em;
+    text-align: center;
+}
+
+.char-section {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin: 1em;
+}
+
+.char {
+    background-color: black;
+    width: 10em;
+    height: 13em;
+    color: rgb(234, 255, 0);
+    border: 0.5px solid yellow;
+    margin: 0.5em;
+    padding: 1em;
+}
